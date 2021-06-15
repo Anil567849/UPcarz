@@ -1,0 +1,127 @@
+
+:root{
+    --body-bg-color: #E4E6EB;
+}
+
+body{
+    background-color: var(--body-bg-color);
+    /* background-color: #1976D2;   */
+    --font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+
+/* content heading  */
+.heading{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    color: #0A0A0A;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-style: italic;
+}
+
+/* buttons  */
+.btn{
+    font-family: var(--font-family);
+    font-weight: 400;
+}
+
+/* section card title and text and images */
+
+#section_visit .card-title, #section_things_to_do .card-title {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 1.5rem; 
+}
+
+#section_visit .card-text, #section_things_to_do .card-text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 1rem;    
+}
+
+#section_visit img, #section_things_to_do img{
+    height: 250px;
+    width: 100%;
+}
+
+
+
+
+/* section main  */
+
+#section_main .card-body .card-title{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #000;
+    margin-bottom: 0px;
+}
+#section_main .car_info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+
+#section_main .car_info p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 1rem;
+    color: #000;
+}
+
+#section_main .car_info .price{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 1rem;
+    color: #000;
+}
+
+#section_main .dropdown-menu li{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: .8rem;
+    color: #000;
+    margin-top: 3px;
+    list-style:disc;
+}
+
+
+
+/* section our team  */
+#section_team .card{
+    text-align: center;
+}
+
+#section_team img{
+    height: 100%;
+    width: 50%;
+    border-radius: 50%;
+}
+
+
+
+/*section contact us  */
+form label{
+    font-family: var(--font-family);
+    font-weight: 500;
+}
+
+
+
+
+/* google maps  */
+#google_map{
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
+}
+#google_map iframe{
+    height: 100%;
+    width: 100%;
+}

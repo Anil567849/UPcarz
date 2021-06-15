@@ -1,0 +1,99 @@
+
+:root{
+    --bg-secondary-color: #e4e6eb;
+    --font-family: 'Ubuntu', sans-serif;
+}
+
+/* .navbar-brand{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 1.5rem;
+    font-style: italic;
+    border-radius: 25px;
+} */
+
+.navbar-brand img{
+    height: 50px;
+    width: 250px;
+}
+
+nav .collapse ul li{
+    margin-right: 1rem;
+}
+
+
+nav .collapse ul li a{
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    background-color: var(--bg-secondary-color);
+    border-radius: 50%;
+}
+
+nav .collapse ul li a img{
+    height: 20px;
+    width: 20px;
+}
+
+
+.main_contact{
+    background-color: var(--bg-secondary-color);
+    padding: .5rem 1rem .5rem 1rem;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    color: black;
+    font-family: var(--font-family);
+    font-weight: 500;
+    text-decoration: none;
+    
+}
+
+
+
+
+
+
+
+
+
+
+/* media query  */
+
+@media only screen and (max-width: 576px){
+    nav #navbarSupportedContent #nav_icons{
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: row;
+        align-self: end;
+        justify-content: flex-end;
+    }
+}
+
+
+@media only screen and (max-width: 350px){
+    
+    .navbar-brand img{
+        height: 50px;
+        width: 200px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 300px){
+    
+    .navbar-brand img{
+        height: 45px;
+        width: 180px;
+    }
+    
+}
+
+@media only screen and (max-width: 280px){
+    
+    .navbar-brand img{
+        height: 40px;
+        width: 150px;
+    }
+    
+}
